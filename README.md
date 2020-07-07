@@ -7,4 +7,5 @@ Bài tập chuỗi
 
 Bài tập mảng
 1) Viết chương trình khai báo và tạo mảng
-2) Viết chương trình tạo mảng liên hợp
+2) Viết chương trình tạo mảng liên hợp gồm có đất nước và thủ đô
+3) 
