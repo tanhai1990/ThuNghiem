@@ -7,7 +7,6 @@ if(isset($_POST["btnGui"])){
 
     $objReader = PHPExcel_IOFactory::createReaderForFile($file);
     $listWorkSheets = $objReader->listWorkSheetNames($file);
-    print_r($listWorkSheets);
 
     foreach($listWorkSheets as $name){
         $sql = "
@@ -21,7 +20,6 @@ if(isset($_POST["btnGui"])){
 
         $objExcel = $objReader->load($file);
         $sheetData = $objExcel->getActiveSheet()->toArray('null',true,true,true);
-        print_r($sheetData);
 
         $HighestRow = $objExcel->setActiveSheetIndex()->getHighestRow();
         
