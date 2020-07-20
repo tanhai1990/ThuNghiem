@@ -29,7 +29,7 @@ if(isset($_POST["btnExport"])){
     $objWriter = new PHPExcel_Writer_Excel2007($objExcel);
     $filename = 'ExportData.xlsx';
     $objWriter->save($filename);
-
+    
     header('Content-Disposition: attachment; filename="'.$filename.'"');
     header('Content-Type: application/vnd.openxmlformatsofficedocument.spreadsheetml.sheet');
     header('Content-Length: '.filesize($filename));
