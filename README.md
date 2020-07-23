@@ -33,3 +33,9 @@ Bài Tập For
 VD: chuỗi "vietjack team";
 
 //=============================================
+JAVASCRIPT
+1) Vị trí javascript trong HTML
+2) Khai báo biến
+3) Toán tử
+4) Lệnh IF..ELSE
+5) Lệnh lặp WHILE
