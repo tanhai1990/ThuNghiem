@@ -39,3 +39,7 @@ JAVASCRIPT
 3) Toán tử
 4) Lệnh IF..ELSE
 5) Lệnh lặp WHILE
+6) FOR
+7) FOR..IN
+8) Hộp thoại Confirm()
+9) Hộp thoại Prompt()

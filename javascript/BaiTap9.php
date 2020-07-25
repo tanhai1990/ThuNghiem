@@ -9,15 +9,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-        var count = 1;
-
-        while(count<=10){
-            document.write("count:"+count+"<br>");
-            count++;
+        function getValue(){
+            var name = prompt("Enter your name: ", "your name here");
+            document.write("You have entered:"+name);
         }
     </script>
 </head>
 <body>
-    
+    <p>Click the following button to see the result</p>
+    <form action="">
+        <input type="button" value="Click Me" onclick="getValue()">
+    </form>
 </body>
 </html>
