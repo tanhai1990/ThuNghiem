@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -35,7 +33,7 @@
         </div>
     </nav>
     <!-- End Menu -->
-    <div class="jumbotron text-center">
+    <div class="jumbotron">
         <h1>MYCLASS.VN</h1>
         <P>Đội ngũ trẻ - Giàu tâm huyết</P>
         <form action="" class="form-inline">
@@ -47,7 +45,7 @@
     </div>
 
     <!-- Container (About Section) -->
-    <div id="about" class="container-fluid">
+    <div id="about1" class="container-fluid">
         <div class="row">
             <div class="col-sm-8">
                 <h2>Giới thiệu myclass.vn</h2><br>
@@ -61,13 +59,13 @@
                 <br><button class="btn btn-default btn-lg">Liên hệ với chúng tôi</button>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-signal logo"></span>
+                <span class="glyphicon glyphicon-signal logo sliceanim"></span>
             </div>
         </div>
         
     </div>
 
-    <div class="container-fluid bg-grey">
+    <div id="about2" class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
                 <span class="glyphicon glyphicon-globe logo slideanim"></span>
@@ -86,23 +84,23 @@
     </div>
 
     <!-- Container (Service) -->
-    <div id="service" class="container-fluid text-center">
+    <div id="service" class="container-fluid">
         <h2>Dịch vụ</h2>
         <h4>Các dịch vụ của chúng tôi gồm có:</h4>
         <br>
         <div class="row slideanim">
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-off logo-small"></span>
+                <span class="glyphicon glyphicon-off logo-small sliceanim"></span>
                 <h4>Elearing-Frameword</h4>
                 <p>Phần mềm khung dạy trực tuyến.</p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-heart logo-small"></span>
+                <span class="glyphicon glyphicon-heart logo-small sliceanim"></span>
                 <h4>Phát triển Website</h4>
                 <p>Chúng tôi phát triển Website theo các đơn đặt hàng.</p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-lock logo-small"></span>
+                <span class="glyphicon glyphicon-lock logo-small sliceanim"></span>
                 <h4>Hệ thống CRM</h4>
                 <p>Chúng tôi phát triển Website theo các đơn đặt hàng.</p>
             </div>
@@ -110,17 +108,17 @@
         <br><br>
         <div class="row slideanim">
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-leaf logo-small"></span>
+                <span class="glyphicon glyphicon-leaf logo-small sliceanim"></span>
                 <h4>Hệ thống CRM</h4>
                 <p>Chúng tôi phát triển Website theo các đơn đặt hàng.</p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-certificate logo-small"></span>
+                <span class="glyphicon glyphicon-certificate logo-small sliceanim"></span>
                 <h4>Hệ thống CRM</h4>
                 <p>Chúng tôi phát triển Website theo các đơn đặt hàng.</p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-certificate logo-small"></span>
+                <span class="glyphicon glyphicon-certificate logo-small sliceanim"></span>
                 <h4>Hệ thống CRM</h4>
                 <p>Chúng tôi phát triển Website theo các đơn đặt hàng.</p>
             </div>
