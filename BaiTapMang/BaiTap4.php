@@ -7,7 +7,7 @@
    
        <?php
          $color = array(1 => 'white', 5 => 'green', 9=> 'red');  
-		 echo reset($color)."<br>";
+         echo reset($color)."<br>";
        ?>
        
    </body>
