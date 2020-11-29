@@ -9,21 +9,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-        function getConfirmation(){
-            var retVal = confirm("Do you want to continue?");
-            if(retVal){
-                document.write("User wants to continue!");
-            }
-            else{
-                document.write("User does not want to be continue!");
-            }
-        }
+        var D = new Date();
+        var NamSinh, NamHienTai;
+        NamHienTai = D.getFullYear(); // Lưu năm hiện tại vào biến
+        alert(NamHienTai)
+        NamSinh = prompt("Bạn sinh năm bao nhiêu ? : ","");
+        alert("Tuổi của bạn bây giờ là : " + (NamHienTai-NamSinh));
     </script>
 </head>
 <body>
-    <p>Click the following button to see the result</p>
-    <form action="">
-        <input type="button" value="Click Me" onclick="getConfirmation()">
-    </form>
 </body>
 </html>

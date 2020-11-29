@@ -9,21 +9,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-        function getConfirmation(){
-            var retVal = confirm("Do you want to continue?");
-            if(retVal){
-                document.write("User wants to continue!");
-            }
-            else{
-                document.write("User does not want to be continue!");
-            }
+        function hienThi(){
+            document.write("Hien Thi");
         }
     </script>
 </head>
 <body>
     <p>Click the following button to see the result</p>
     <form action="">
-        <input type="button" value="Click Me" onclick="getConfirmation()">
+        <input type="text" name="msg" size="30">
+        <input type="button" value="Welcome" onclick="hienThi()">
+        
     </form>
 </body>
 </html>

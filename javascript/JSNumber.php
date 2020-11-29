@@ -8,22 +8,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        function getConfirmation(){
-            var retVal = confirm("Do you want to continue?");
-            if(retVal){
-                document.write("User wants to continue!");
-            }
-            else{
-                document.write("User does not want to be continue!");
-            }
-        }
-    </script>
 </head>
 <body>
-    <p>Click the following button to see the result</p>
-    <form action="">
-        <input type="button" value="Click Me" onclick="getConfirmation()">
-    </form>
+    <p id="demo" ></p>
+    <script>
+        // var x = 3.14;
+        // var y = 3;
+        // var x = 123e5;    // 12300000
+        // var y = 123e-5;
+        // var x = 10;
+        // var y = "20";
+        // var z = x + y; 
+        // document.getElementById("demo").innerHTML = x + "<br>" + y;
+        // document.getElementById("demo").innerHTML = z;
+
+        var x = "100";
+        var y = "10";
+        var z = x / y;   
+        document.getElementById("demo").innerHTML = z;
+
+    </script>
 </body>
 </html>
